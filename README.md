@@ -1,16 +1,43 @@
-# 0x1E. C - Search Algorithms
+# 0x1B. C - Sorting algorithms & Big O
+
+## Description
+This project is a partner project part of the curriculum of Alx-Software Engineering School.
+Its aim is to explore, learn and implement most well-known sorting algorithms.
+It's also about understanding the Big O notation of time complexity.
+These algorithms are implemented in C.
 
 ## Table of contents
 Files | Description
 ----- | -----------
-[0-linear.c](./0-linear.c) | C function that searches for a value in an array of integers using the Linear search algorithm
-[1-binary.c](./1-binary.c) | C function that searches for a value in a sorted array of integers using the Binary search algorithm
-[2-O](./2-O) | What is the time complexity (worst case) of a linear search in an array of size n?
-[3-O](./3-O) | What is the space complexity (worst case) of an iterative linear search algorithm in an array of size n?
-[4-O](./4-O) | What is the time complexity (worst case) of a binary search in an array of size n?
-[5-O](./5-O) | What is the space complexity (worst case) of a binary search in an array of size n?
-[6-O](./6-O) | What is the space complexity of this function / algorithm?
-[100-jump.c](./100-jump.c) | C function that searches for a value in a sorted array of integers using the Jump search algorithm
-[101-O](./101-O) | What is the time complexity (average case) of a jump search in an array of size n, using step = sqrt(n)?
-[107-O](./107-O) | What is the time complexity (average case) of a jump search in a singly linked list of size n, using step = sqrt(n)?
-[108-O](./108-O) | What is the time complexity (average case) of a jump search in a skip list of size n, with an express lane using step = sqrt(n)?
+[sort.h](./sort.h) | Header file containing all the function prototypes and data structures for this project
+[print_list.c](./print_list.c) | Function that prints a linked list
+[print_array.c](./print_array.c) | Function that prints an array
+[0-bubble_sort.c](./0-bubble_sort.c) | Implementation of the Bubble sort algorithm
+[0-O](./0-O) | Time complexity of Bubble sort
+[1-insertion_sort_list.c](./1-insertion_sort_list.c) | Implementation of the Insertion sort algorithm
+[1-O](./1-O) | Time complexity of Insertion sort
+[2-selection_sort.c](./2-selection_sort.c) | Implementation of the Selection sort algorithm
+[2-O](./2-O) | Time complexity of Selection sort
+[3-quick_sort.c](./3-quick_sort.c) | Implementation of the Quicksort algorithm
+[3-O](./3-O) | Time complexity of Quicksort
+[100-shell_sort.c](./100-shell_sort.c) | Implementation of the Shell sort algorithm
+[101-cocktail_sort_list.c](./101-cocktail_sort_list.c) | Implementation of the Cocktail Shaker sort algorithm
+[102-counting_sort.c](./102-counting_sort.c) | Implementation of the Counting sort algorithm
+[102-O](./102-O) | Time complexity of Counting sort
+[103-merge_sort.c](./103-merge_sort.c) | Implementation of the Merge sort algorithm
+[103-O](./103-O) | Time complexity of Merge sort
+[104-heap_sort.c](./104-heap_sort.c) | Implementation of the Heap sort algorithm
+[104-O](./104-O) | Time complexity of Heap sort
+[105-radix_sort.c](./105-radix_sort.c) | Implementation of the Radix sort algorithm
+[105-O](./105-O) | Time complexity of Radix sort
+[106-bitonic_sort.c](./106-bitonic_sort.c) | Implementation of the Bitonic sort algorithm
+[106-O](./106-O) | Time complexity of Bitonic sort
+[107-quick_sort_hoare.c](./107-quick_sort_hoare.c) | Implementation of the Quicksort algorithm with the Hoare partition scheme
+[1000-sort_deck.c](./1000-sort_deck.c) | Function that sorts a deck of cards
+[deck.h](./deck.h) | Header file for the card deck sorting function
+
+
+## Authors
+calvince tom
+
+Nairobi cohort
