@@ -1,10 +1,11 @@
-#ifndef SEARCH_ALGOS
-#define SEARCH_ALGOS
+#ifndef SORT
+#define SORT
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
 
+void bubble_sort(int *array, size_t size);
 int linear_search(int *array, size_t size, int value);
 int binary_search(int *array, size_t size, int value);
 int help_binary(int *array, int value, size_t lo, size_t hi);
